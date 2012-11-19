@@ -2,15 +2,14 @@
 //
 
 #include "stdafx.h"
+#include "template.h"
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int a;
-	cin>>a;
-	cout<<"Hello world\n";
-	cout<<a<<endl;
+	A<int> c;
+	cout<<c.getA();
 	return 0;
 }
 
