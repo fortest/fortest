@@ -2,22 +2,15 @@
 //
 
 #include "stdafx.h"
+#include "template.h"
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	char ans = 'n';
-	cout<<"yes/no(y/n)\n"
-	cin>>ans;
-	if(ans=='n')
-	{
-		cout<<"no"<<endl;
-	}
-	else if(ans=='y')
-	{
-		cout<<"yes"<<endl;
-	}
+	A<int> c;
+	cout<<c.getA();
+	
 	return 0;
 }
 
