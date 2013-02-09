@@ -22,6 +22,7 @@ int f1()
 int _tmain(int argc, _TCHAR* argv[])
 {	
 	f1();
+	void(0);
 	return 0;
 }
 
