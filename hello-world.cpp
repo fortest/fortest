@@ -21,6 +21,7 @@ int f1()
 
 int _tmain(int argc, _TCHAR* argv[])
 {	
+	f1();
 	return 0;
 }
 
