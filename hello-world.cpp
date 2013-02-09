@@ -3,15 +3,25 @@
 
 #include "stdafx.h"
 #include "template.h"
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+namespace ns
 {
-	A<int> c;
-	cout<<"Hello world!"
-	cout<<c.getA();
-	
+	int a;
+}
+
+int f1()
+{
+	cout<<"f1"<<endl;
+	return 0;
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+{	
+	f1();
 	return 0;
 }
 
