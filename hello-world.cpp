@@ -21,8 +21,9 @@ int f1()
 
 int _tmain(int argc, _TCHAR* argv[])
 {	
-	f1();
 	void(0);
+	void(0);
+	cout<<"a";
 	return 0;
 }
 
