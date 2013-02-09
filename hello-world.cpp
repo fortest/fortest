@@ -21,8 +21,6 @@ int f1()
 
 int _tmain(int argc, _TCHAR* argv[])
 {	
-	void(0);
-	f1();
 	return 0;
 }
 
