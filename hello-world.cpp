@@ -22,8 +22,7 @@ int f1()
 int _tmain(int argc, _TCHAR* argv[])
 {	
 	void(0);
-	void(0);
-	cout<<"a";
+	f1();
 	return 0;
 }
 
